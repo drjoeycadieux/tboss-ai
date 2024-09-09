@@ -35,6 +35,9 @@ body {
 .navbar-menu-top a:hover {
     color: lightgray;
     text-decoration: underline;
+    border: solid 1px #fff;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .video-background {
@@ -72,37 +75,37 @@ body {
     font-size: 4rem;
 }
 
- .button {
-     background-color: black;
-     color: white;
-     border: none;
-     padding: 10px 20px;
-     text-align: center;
-     text-decoration: none;
-     display: inline-block;
-     font-size: 16px;
-     margin: 4px 2px;
-     cursor: pointer;
-     border-radius: 4px;
-     font-family: sans-serif;
-     font-weight: bold;
- }
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
 
- .button:hover {
-     background-color: #333;
- }
+.button:hover {
+    background-color: #333;
+}
 
- .footer {
+.footer {
     padding: 5px;
     position: fixed;
     bottom: 0;
     width: 100%;
     margin: auto;
- }
+}
 
- .footer p {
+.footer p {
     color: white;
     font-family: sans-serif;
     text-align: center;
     font-weight: 600;
- }
+}
