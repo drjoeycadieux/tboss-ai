@@ -1,5 +1,5 @@
 ---
-
+import Alerts from "../components/alerts.astro";
 ---
 
 <html lang="en">
@@ -11,6 +11,7 @@
 		<title>Tbosss AI Landing</title>
 	</head>
 	<body>
+		<Alerts />
 		<div>
 			<div class="navbar-main-top navbar">
 				<ul>
@@ -30,6 +31,11 @@
 					src="/tboss.png"
 				/>
 				<p>Your Next Generation AI</p>
+				<center>
+					<button class="black-button">Get Started</button>
+
+					<button class="black-button">Release Notes</button>
+				</center>
 			</div>
 		</div>
 
@@ -104,6 +110,20 @@
 				color: lightgray;
 				font-family: sans-serif;
 				font-size: 19px;
+			}
+			.black-button {
+				background-color: #000;
+				color: #fff;
+				border: none;
+				border-radius: 5px;
+				padding: 10px 20px;
+				font-size: 16px;
+				cursor: pointer;
+				transition: background-color 0.3s ease;
+			}
+
+			.black-button:hover {
+				background-color: #333;
 			}
 		</style>
 	</body>
