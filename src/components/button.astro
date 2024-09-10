@@ -6,9 +6,19 @@ const {} = Astro.props;
 
 <div>
     <div>
-        <button onclick="" class="black-button">Get Started</button>
+        <a
+            class="black-button"
+            href="http://"
+            target="_blank"
+            rel="noopener noreferrer">Get Started</a
+        >
 
-        <button onclick="" class="black-button">Release Notes</button>
+        <a
+            class="black-button"
+            href="/release-notes"
+            target="_blank"
+            rel="noopener noreferrer">Release Notes</a
+        >
     </div>
 </div>
 
@@ -26,5 +36,10 @@ const {} = Astro.props;
 
     .black-button:hover {
         background-color: #1d1d1d;
+    }
+    a {
+        text-decoration: none;
+        font-family: sans-serif;
+        font-weight: 600;
     }
 </style>

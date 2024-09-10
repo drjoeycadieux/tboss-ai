@@ -1,0 +1,144 @@
+---
+import Alerts from "../components/alerts.astro";
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>Tbosss AI | Release Notes</title>
+    </head>
+    <body>
+        <Alerts />
+        <div>
+            <div class="navbar-main-top navbar">
+                <ul>
+                    <li><p class="title">Tboss AI</p></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/docs">Docs</a></li>
+                    <li><a href="/learn-more">Learn More</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div>
+            <div class="release-text-notes">
+                <h1 class="release-text">Release Notes - Version 1.0.1</h1>
+                <p class="text-1">Release Date: September 10, 2024</p>
+            </div>
+            <div class="release-text-paragraphe">
+                <p class="text">**Performance Improvements:**</p>
+                <p class="text">
+                    - Optimized loading times for the main application pages by
+                    30%.
+                </p>
+            </div>
+        </div>
+
+        <div class="feedback-top-main">
+            <h1 class="feedback-text-paragraphe">Feedback</h1>
+            <div class="feedback-heading-main">
+                <p class="text-2">
+                    We’d love to hear from you! If you have any questions,
+                    feedback, or encounter any issues, please reach out to our
+                    support team at <strong class="emailid"
+                        >Joey@tech-center.com</strong
+                    > Thank you for using Tboss-AI!
+                </p>
+            </div>
+        </div>
+
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #161616;
+            }
+            .emailid {
+                text-decoration: underline;
+            }
+            .feedback-top-main {
+                padding: 5px;
+                text-align: center;
+            }
+
+            .feedback-top-main .feedback-text-paragraphe {
+                color: white;
+                font-size: 26px;
+                font-family: sans-serif;
+            }
+
+            .text-2 {
+                color: white;
+                font-family: sans-serif;
+                font-size: 26px;
+                width: 900px;
+                margin: auto;
+            }
+
+            .text-1 {
+                color: white;
+                font-family: sans-serif;
+                font-size: 2rem;
+            }
+
+            .release-text-paragraphe {
+                padding: 5px;
+                text-align: center;
+            }
+
+            .release-text-paragraphe .text {
+                color: lightgray;
+                font-family: sans-serif;
+                font-size: 23px;
+            }
+
+            .release-text-notes {
+                padding: 25px;
+                text-align: center;
+            }
+
+            .release-text-notes h1 {
+                color: white;
+                font-family: sans-serif;
+                font-size: 3rem;
+            }
+
+            .navbar-main-top {
+                padding: 10px;
+                background-color: rgba(0, 0, 0, 0.863);
+            }
+
+            .navbar-main-top ul {
+                display: block;
+            }
+
+            .navbar-main-top ul li {
+                display: inline;
+                margin: 5px;
+            }
+
+            .navbar-main-top ul li a {
+                color: white;
+                font-family: sans-serif;
+                font-size: 19px;
+                text-decoration: none;
+            }
+
+            .navbar-main-top ul li a a:hover {
+                color: lightgray;
+                text-decoration: underline;
+            }
+
+            .title {
+                color: white;
+                display: inline;
+                font-size: 26px;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+        </style>
+    </body>
+</html>
