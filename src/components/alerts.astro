@@ -5,10 +5,15 @@ const {} = Astro.props;
 ---
 
 <div class="alerts-header">
-    <p>Our Product will launch later then what is supposed to be..</p>
+    <p>
+        <span><i class="bi bi-exclamation-triangle"></i></span> Our product will
+        be released later than expected.
+    </p>
 </div>
 
 <style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
     .alerts-header {
         padding: 3px;
         background-color: purple;
