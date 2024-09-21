@@ -1,8 +1,9 @@
-User-agent: *
-User-agent: AdsBot-Google
 User-agent: Googlebot
-User-agent: Googlebot-Image
+
+Disallow: /
 
 
 
-Disallow: /docs
+User-agent: msnbot
+
+Disallow: /
