@@ -1,6 +1,8 @@
 ---
 import Alerts from "../components/alerts.astro";
 import Button from "../components/button.astro";
+
+const title = "Your Next Generation AI";
 ---
 
 <html lang="en">
@@ -32,7 +34,7 @@ import Button from "../components/button.astro";
 					height="300"
 					src="/tboss.png"
 				/>
-				<p>Your Next Generation AI</p>
+				<p>{title}</p>
 				<center>
 					<Button />
 				</center>
@@ -110,25 +112,6 @@ import Button from "../components/button.astro";
 				color: lightgray;
 				font-family: sans-serif;
 				font-size: 19px;
-			}
-
-			.video-container {
-				position: relative;
-				width: 100%;
-				height: 100%;
-				overflow: hidden;
-			}
-
-			.video-background {
-				position: absolute;
-				top: 50%;
-				left: 50%;
-				min-width: 100%;
-				min-height: 100%;
-				width: auto;
-				height: auto;
-				transform: translate(-50%, -50%);
-				object-fit: cover; /* This makes the video cover the entire area */
 			}
 		</style>
 	</body>
