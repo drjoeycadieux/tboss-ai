@@ -1,9 +1,6 @@
-User-agent: Googlebot
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+Allow: /
 
-Disallow: /
-
-
-
-User-agent: msnbot
-
-Disallow: /
+Sitemap: https://www.yourwebsite.com/sitemap.xml
